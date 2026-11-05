@@ -6,7 +6,6 @@ class OrderSummaryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String itemName = 'Vegetable Pizza';
     const double unitPrice = 12.50;
     const int quantity = 2;
     final double total = orderTotal(unitPrice: unitPrice, quantity: quantity);
